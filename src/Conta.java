@@ -1,5 +1,5 @@
 
-public abstract class Conta implements IConta {
+public abstract class Conta extends AbstractEntity implements IConta {
 	
 	private static final int AGENCIA_PADRAO = 1;
 	private static int SEQUENCIAL = 1;
